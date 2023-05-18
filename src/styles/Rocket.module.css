@@ -31,13 +31,32 @@
   line-height: 28px;
 }
 
-.myImg img {
+.img {
   width: 95%;
 }
 
 .name {
   display: flex;
   justify-content: flex-start;
+}
+
+.booked {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  width: 12vw;
+}
+
+.unBooked {
+  background-color: rgb(4, 19, 238);
+  color: #fff;
+}
+
+.badge {
+  background-color: rgb(4, 19, 238);
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 4px;
+  padding: 1px 4px;
 }
 
 button {
@@ -48,29 +67,11 @@ button {
   border-radius: 5px;
   font-size: 16px;
   transition: 0.5s;
-  background-color: rgb(74, 93, 255);
+  background-color: rgb(141, 158, 255);
 }
 
 button:hover {
   color: #fff;
   background-color: rgb(28, 31, 56);
   cursor: pointer;
-}
-
-.booked {
-  background-color: rgb(255, 255, 255);
-  color: #7a7676;
-  width: 12vw;
-}
-
-.notBooked {
-  background-color: rgb(144, 144, 226);
-}
-
-.badge {
-  background-color: rgb(4, 19, 238);
-  color: #fff;
-  border-radius: 5px;
-  margin: 0 4px;
-  padding: 1px 4px;
 }
