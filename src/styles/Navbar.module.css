@@ -8,15 +8,15 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 2rem;
+  gap: 2.1rem;
   margin: 0.5rem 2rem;
   font-family: "Lato", sans-serif;
-  font-size: 2rem;
+  font-size: 2.2rem;
   font-weight: bold;
 }
 
 .navlinks {
-  color: #2299c8;
+  color: #0037ff;
   font-size: 1.5rem;
   font-family: "Lato", sans-serif;
   font-weight: 600;
@@ -27,6 +27,8 @@
   padding-right: 2rem;
 }
 
-#links a.active {
-  border-right: 2px solid #040444;
+.navlinks a {
+  color: #0037ff;
+  border-right: 4px solid #0037ff;
+  padding-right: 5px;
 }
