@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Badge from 'react-bootstrap/Badge';
 import RocketsData from '../redux/rockets/api';
-import styles from '../styles/Rocket.css';
+import rocketCss from '../styles/Rocket.css';
 import { RocketReservation } from '../redux/rockets/rocketSlice';
 
 const RocketsList = () => {
@@ -31,7 +31,7 @@ const RocketsList = () => {
                     { rocket.booked ? <Badge bg="info">Reserved</Badge> : '' }
                     {rocket.description}
                   </p>
-                  <button type="button" className={`${rocket.booked ? styles.booked : styles.notBooked}`} onClick={() => Dispatch(RocketReservation(rocket.id))}>{rocket.booked ? 'Cancel Reservation' : 'Reserve Rocket'}</button>
+                  <button className={`${rocket.booked ? rocketCss.booked : rocketCss.unBooked}`} onClick={() => Dispatch(RocketReservation(rocket.id))} type="button">{rocket.booked ? 'Cancel Reservation' : 'Reserve Rocket'}</button>
                 </div>
               </section>
             ))

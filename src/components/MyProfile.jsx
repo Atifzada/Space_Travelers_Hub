@@ -7,7 +7,7 @@ const MyProfile = () => {
   const { rockets } = useSelector((state) => state.rockets);
   return (
     <>
-      <section className="reservedRockets">
+      <section className="rocketContainer">
         <div className="display">
           <h2>My Rockets</h2>
           <ul className="rocketsList">
