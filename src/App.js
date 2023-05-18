@@ -1,9 +1,8 @@
 import './App.css';
+import Navbarmenu from './components/Navigation';
 
 const App = () => (
-  <div className="myApp">
-    <h1>Space Traveler&apos;s Hub</h1>
-  </div>
+  <Navbarmenu />
 );
 
 export default App;
