@@ -9,7 +9,7 @@
 .card {
   display: flex;
   flex-direction: row;
-  font-family: 'Lato' sans-serif;
+  font-family: 'Lato', sans-serif;
   gap: 10px;
   margin: 10px;
 }
@@ -48,7 +48,7 @@ button {
   color: #fff;
   border-radius: 5px;
   font-size: 16px;
-  transition: 0.5s; 
+  transition: 0.5s;
   background-color: rgb(74, 93, 255);
 }
 
