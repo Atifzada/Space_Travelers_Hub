@@ -1,0 +1,29 @@
+.reservedRockets {
+    width: 100%;
+    padding: 0 10px;
+  }
+  
+  .rocketsList {
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid rgb(218, 205, 205);
+    gap: 5px;
+    width: 50%;
+    margin-top: 10px;
+  }
+  
+  .rocketsList li {
+    border-bottom: 1px solid rgb(214, 205, 205);
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .display {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }

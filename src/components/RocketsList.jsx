@@ -9,7 +9,7 @@ const RocketsList = () => {
   const { rockets, status, error } = useSelector((state) => state.rockets);
   const Dispatch = useDispatch();
   useEffect(() => {
-    Dispatch(RocketsData());
+    if (!rockets.length) Dispatch(RocketsData());
   }, [Dispatch]);
   if (status) {
     return 'Please wait while data is loading ';
