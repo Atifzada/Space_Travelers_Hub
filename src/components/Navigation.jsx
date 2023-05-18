@@ -18,7 +18,7 @@ const Navbarmenu = () => (
 
         <Nav className={NavStyle.navlinks} id="links">
           <NavLink
-            to="/rockets"
+            to="/"
             style={({ isActive, isPending }) => ({
               textDecoration: isActive ? 'underline' : '', paddingRight: isActive ? '1rem' : '', fontSize: isActive ? '2rem' : '1.5rem', color: isPending ? '#00b7ff' : '',
             })}>
