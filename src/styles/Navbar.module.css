@@ -11,7 +11,7 @@
   gap: 2.1rem;
   margin: 0.5rem 2rem;
   font-family: "Lato", sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.6rem;
   font-weight: bold;
 }
 
@@ -29,6 +29,11 @@
 
 .navlinks a {
   color: #0037ff;
-  border-right: 4px solid #0037ff;
+  border-right: 2px solid #0037ff;
   padding-right: 5px;
+}
+
+hr {
+  margin: 30px;
+  opacity: 0.5;
 }

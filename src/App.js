@@ -1,7 +1,7 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import Navbarmenu from './components/Navigation';
-import ProfileRoute from './rountes/MyProfileRoute';
+import ProfileRoute from './routes/MyProfileRoute';
 import Missions from './components/Missions';
 import Rockets from './components/Rockets';
 
