@@ -1,0 +1,39 @@
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navTitle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2.1rem;
+  margin: 0.5rem 2rem;
+  font-family: "Lato", sans-serif;
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.navlinks {
+  color: #037bff;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding-right: 2rem;
+}
+
+.navlinks a {
+  color: #037bff;
+  border-right: 2px solid #037bff;
+  padding-right: 5px;
+}
+
+hr {
+  margin: 30px;
+  opacity: 0.5;
+}

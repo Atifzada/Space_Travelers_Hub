@@ -1,0 +1,75 @@
+.main {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: column;
+  gap: 15px;
+  margin: 5px 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Lato', sans-serif;
+  gap: 10px;
+  margin: 10px;
+}
+
+.myImg {
+  flex: 1;
+}
+
+.rocketDetails {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 5px;
+}
+
+.rocketDetails p {
+  padding-right: 10rem;
+  line-height: 28px;
+}
+
+.img {
+  width: 95%;
+}
+
+.name {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.booked {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  width: 12vw;
+}
+
+.unBooked {
+  background-color: #037bfe;
+  color: #fff;
+}
+
+.badge {
+  background-color: #1aa2b9;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 4px;
+  padding: 1px 4px;
+}
+
+button {
+  width: 12vw;
+  height: 4.5vh;
+  border: 0.2px solid black;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.5s;
+  background-color: #037bff;
+}
+
+button:hover {
+  cursor: pointer;
+}
