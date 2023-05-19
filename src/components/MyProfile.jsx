@@ -1,5 +1,4 @@
 import React from 'react';
-import '../styles/Profile.css';
 import { useSelector } from 'react-redux';
 import '../styles/MyProfile.css';
 
