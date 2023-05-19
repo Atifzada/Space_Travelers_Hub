@@ -71,6 +71,9 @@
 
 - **[Setup with create-react-app]**
 - **[Setup linters for React/Redux]**
+- **[Users can book rockets]**
+- **[Users can cancel rockets reservation]**
+- **[Users can leave space missions]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -88,7 +91,7 @@ Browser
 
 ### Setup
 
-git clone https://github.com/Atifzada/Space_Travelers-_Hub
+git clone https://github.com/Atifzada/Space_Travelers_Hub
 
 cd Math-Magicians
 

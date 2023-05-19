@@ -9,6 +9,7 @@ const RocketsList = () => {
   const Dispatch = useDispatch();
   useEffect(() => {
     if (!rockets.length) Dispatch(RocketsData());
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [Dispatch]);
   if (status) {
     return 'Please wait while data is loading ';

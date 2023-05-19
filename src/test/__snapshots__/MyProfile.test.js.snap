@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <section
+    class="rocketContainer"
+  >
+    <div
+      class="display"
+    >
+      <h2>
+        My Rockets
+      </h2>
+      <ul
+        class="rocketsList"
+      />
+    </div>
+  </section>
+</div>
+`;

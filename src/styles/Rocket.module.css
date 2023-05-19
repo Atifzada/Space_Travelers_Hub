@@ -71,7 +71,5 @@ button {
 }
 
 button:hover {
-  color: #fff;
-  background-color: rgb(28, 31, 56);
   cursor: pointer;
 }
