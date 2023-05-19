@@ -47,12 +47,12 @@
 }
 
 .unBooked {
-  background-color: rgb(4, 19, 238);
+  background-color: #037BFE;
   color: #fff;
 }
 
 .badge {
-  background-color: rgb(4, 19, 238);
+  background-color: #1AA2B9;
   color: #fff;
   border-radius: 5px;
   margin: 0 4px;
@@ -67,7 +67,7 @@ button {
   border-radius: 5px;
   font-size: 16px;
   transition: 0.5s;
-  background-color: rgb(141, 158, 255);
+  background-color: #037BFE;
 }
 
 button:hover {
