@@ -16,7 +16,7 @@
 }
 
 .navlinks {
-  color: #0037ff;
+  color: #037bff;
   font-size: 1.5rem;
   font-family: "Lato", sans-serif;
   font-weight: 600;
@@ -28,8 +28,8 @@
 }
 
 .navlinks a {
-  color: #037bfe;
-  border-right: 2px solid #0037ff;
+  color: #037bff;
+  border-right: 2px solid #037bff;
   padding-right: 5px;
 }
 
